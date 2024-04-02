@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "music_analyses"
+version = "0.0.0"
+description = "No files project"
+authors = ["syntrice <syntrice@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+music21 = "^9.1.0"
+pandas = "^2.2.1"
+composer_toolkit = {path = "../composer-toolkit", develop = true}
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
