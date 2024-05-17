@@ -13,6 +13,7 @@ composer_toolkit = {path = "../composer-toolkit", develop = true}
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
+notebook = "^7.2.0"
 
 [build-system]
 requires = ["poetry-core"]
